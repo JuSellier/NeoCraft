@@ -11,7 +11,7 @@ const Home = () => {
     <BasePage>
     <section className="Home-Intro">
       <h1>NeoCraft codes algorithmic art.</h1>
-      <P5sketch autoPlay titleHidden controlsHidden {...getRandomP5sketch(p5sketches)} />      
+      <P5sketch autoPlay titleHidden controlsHidden noBorder {...getRandomP5sketch(p5sketches)} />      
     </section>
 
     <section className="Home-Description contained">

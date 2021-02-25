@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="https://jusellier.com" rel="noreferrer" target="_blank">This website was coded with love by JuSellier</a>
       </section>
 
-      <P5sketch autoPlay titleHidden controlsHidden {...getRandomP5sketch(p5sketches)} />      
+      <P5sketch autoPlay titleHidden controlsHidden noBorder {...getRandomP5sketch(p5sketches)} />      
     </footer>
   )
 }
