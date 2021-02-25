@@ -9,13 +9,13 @@ export function isMouseOnCanvas(p5) {
 }
 
 export function getWindowWidth() {
-  return window.innerWidth < 600
-    ? window.innerWidth - 40
-    : window.innerWidth - 160;
+  const pageWidth = window.innerWidth;
+
+  return pageWidth < 600 ? pageWidth - 40 : pageWidth - 160;
 }
 
 export function getWindowHeight() {
-  return window.innerHeight - 20;
+  return window.innerHeight - 80;
 }
 
 export function resizeSketchOnWindowResize(p5) {
