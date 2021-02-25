@@ -1,0 +1,33 @@
+.Home-Intro {
+  min-height: 50vh;
+  margin-bottom: 2rem;
+
+  h1 {
+    position: sticky;
+    top: 4rem;
+
+    z-index: 5;
+    margin: 2rem auto -1rem;
+    font-size: calc(1rem + 2vw);
+    text-align: center;
+
+    padding: 10px 20px;
+    border-radius: 0 15px 15px 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 0 1px #808080;
+    max-width: max-content;
+    pointer-events: none;
+  }
+}
+
+.Home-Description {
+  margin: 10rem 0;
+}
+
+.Home-Artworks {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem;
+
+  padding: 2rem 0;
+}

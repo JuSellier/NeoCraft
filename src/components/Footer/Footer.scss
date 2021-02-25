@@ -1,0 +1,25 @@
+.Footer {
+  border-top: 1px solid var(--clr-txt);
+  padding: 1rem var(--size-sides);
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-Signature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto 1rem;
+
+  & {
+    padding: 10px 20px;
+    font-weight: 100;
+    position: relative;
+    border-radius: 0 15px 15px 15px;
+    &:hover {
+      box-shadow: 0 0 5px var(--clr-1);
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.contained {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+p.left-line-p {
+  font-weight: 100;
+  padding-left: 10px;
+  position: relative;
+  margin: 1rem 0 2rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--clr-gradient-1);
+  }
+}
+
+a.btn-link {
+  padding: 5px 10px;
+  border-radius: 50px;
+  box-shadow: 0 0 0 1px var(--clr-1-x);
+
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes glitch-text {
+  0% {
+    text-shadow: 0.1em -0.1em 0 var(--clr-1), -0.1em 0.1em 0 var(--clr-1-x);
+  }
+  10% {
+    text-shadow: -0.1em 0.1em 0 var(--clr-1-x), 0.5.1em 0.1em 0 var(--clr-2),
+      -0.1em 0 0 var(--clr-1);
+  }
+  20% {
+    text-shadow: 0.5.1em 0.1em 0 var(--clr-1), -0.1em 0.1em 0 var(--clr-1-x),
+      0.1em -0.1em 0 var(--clr-2);
+  }
+  30% {
+    text-shadow: 0.1em -0.1em 0 var(--clr-1), 0.1em 0.1em 0 var(--clr-2);
+  }
+  35% {
+    text-shadow: 0;
+  }
+  40% {
+    text-shadow: 0.1em -0.1em 0 var(--clr-1), -0.1em 0.1em 0 var(--clr-2);
+  }
+  50% {
+    text-shadow: 0;
+  }
+  70% {
+    text-shadow: -0.1em -0.1em 0 var(--clr-2), 0.1em -0.1em 0 var(--clr-1-x);
+  }
+  80% {
+    text-shadow: 0.1em -0.1em 0 var(--clr-1-x), 0.1em -0.1em 0 var(--clr-2);
+  }
+  90% {
+    text-shadow: 0.1em -0.1em 0 var(--clr-1-x), -0.1em -0.1em 0 var(--clr-1);
+  }
+  100% {
+    text-shadow: 0.5.1em -0.1em 0 var(--clr-2), -0.1em -0.1em 0 var(--clr-1-x),
+      0.1em 0.1em 0 var(--clr-1);
+  }
+}

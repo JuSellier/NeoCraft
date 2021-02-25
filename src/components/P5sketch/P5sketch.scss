@@ -1,0 +1,64 @@
+.P5sketch {
+  &-Title {
+    // margin-bottom: 1rem;
+    font-weight: 100;
+    font-family: var(--font-mono);
+  }
+}
+
+.P5sketch-wrapper {
+  position: relative;
+  min-height: calc(100vh - 40px);
+}
+
+.P5sketch-Loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #80808050;
+
+  animation: p5sketch-loading 3s infinite alternate;
+}
+
+.P5sketch-Play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  cursor: pointer;
+
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--clr-gradient-1);
+
+  svg {
+    min-width: 3rem;
+    min-height: 3rem;
+  }
+}
+
+@keyframes p5sketch-loading {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

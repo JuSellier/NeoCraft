@@ -1,0 +1,20 @@
+html {
+  // SHADES OF GREYS
+  --clr-black: #130006;
+  --clr-black-dim: #333031;
+  --clr-white: #fff7fa;
+  --clr-white-dim: #8f7981;
+
+  // PALETTE COLORS
+  --clr-1: #ff09ff;
+  --clr-1-x: #ff0606;
+  --clr-2: #1f06ff;
+
+  // GRADIENTS
+  --clr-gradient-1: linear-gradient(45deg, var(--clr-1), var(--clr-2));
+}
+
+body {
+  --clr-txt: var(--clr-white);
+  --clr-bg: var(--clr-black);
+}

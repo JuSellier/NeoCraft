@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap");
+
+html {
+  --font-h: "Orbitron", sans-serif;
+  --font-p: "Exo", sans-serif;
+  --font-mono: "Share Tech Mono", monospace;
+
+  --size-h1: 2rem;
+  --size-h2: 1.8rem;
+  --size-h3: 1.6rem;
+  --size-h4: 1.4rem;
+  --size-h5: 1.3rem;
+  --size-h6: 1.2rem;
+  --size-p: 1.1rem;
+}

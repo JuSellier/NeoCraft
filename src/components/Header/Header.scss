@@ -1,0 +1,85 @@
+.Header {
+  padding: 10px var(--size-sides);
+  border-bottom: solid 1px var(--clr-txt);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+
+  &-AppName {
+    font-size: var(--size-h4);
+
+    &:hover {
+      animation: glitch-text 1s infinite alternate;
+    }
+  }
+}
+
+.Header-NavToggle {
+  padding: 5px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  svg {
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 0 1px var(--clr-txt);
+  }
+
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+
+.Header-Nav {
+  position: absolute;
+  top: 100%;
+  left: -100%;
+  width: 100%;
+  z-index: 100;
+
+  padding: 10px var(--size-sides);
+  margin: 0;
+  background: var(--clr-bg);
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  column-gap: 20px;
+
+  transition: left 0.1s ease-out;
+
+  &-Item {
+    font-family: var(--font-h);
+    font-size: var(--size-p);
+    text-transform: capitalize;
+
+    &:hover {
+      animation: glitch-text 1s infinite alternate;
+    }
+
+    &.active {
+      color: #80808050;
+    }
+  }
+
+  &.expanded {
+    border-bottom: 1px solid var(--clr-txt);
+    left: 0;
+  }
+
+  @media screen and (min-width: 1000px) {
+    position: static;
+    flex-direction: row;
+    padding: 10px 0;
+    width: auto;
+  }
+}
