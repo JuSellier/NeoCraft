@@ -2,6 +2,13 @@
 
 Algorithmic art project
 
+## Dependencies
+
+- `node-sass`
+- `react-router-dom`
+- `react-icons`
+- `react-p5`
+
 ---
 
 ## Available Scripts
