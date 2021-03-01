@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="Header">
-      <Link className="Header-AppName" to="/">NeoCraft Studio</Link>
+      <Link className="Header-AppName" to="/">NeoCraft</Link>
 
       <div
         className="Header-NavToggle"

@@ -15,14 +15,14 @@ const Home = () => {
     </section>
 
     <section className="Home-Description contained">
-	    <h2>What is NeoCraft Studio?</h2>
+	    <h2>What is NeoCraft?</h2>
 	      <p className="left-line-p">
-          It is a collaborative art studio focused on providing artistic experiences
+          It is a collaborative art project focused on providing artistic experiences
           using code.
           <br />
-          NeoCraft Studio is an initiative from FoxiDev.io.
+          NeoCraft is an initiative from FoxiDev.io.
         </p>
-	    <a href="/about" className="btn-link">About NeoCraft Studio</a>
+	    <a href="/about" className="btn-link">About NeoCraft</a>
     </section>
 
     <section className="contained">
