@@ -125,14 +125,10 @@ const p5sketches = [
       p5.background(0);
       class Boid {
         constructor(position) {
-          if (position) {
-            this.position = p5.createVector(position.x, position.y);
-          } else {
-            this.position = p5.createVector(
-              p5.random(p5.width),
-              p5.random(p5.height)
-            );
-          }
+          this.position = p5.createVector(
+            p5.random(p5.width),
+            p5.random(p5.height)
+          );
 
           this.velocity = p5.createVector(p5.random(-6, 6), p5.random(-2, 2));
 
