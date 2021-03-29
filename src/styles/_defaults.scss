@@ -24,6 +24,7 @@ button {
 a {
   text-decoration: none;
   cursor: pointer;
+  font-family: inherit;
 
   &:hover {
     text-decoration: underline;
@@ -49,7 +50,7 @@ h1 {
 h2 {
   font-family: var(--font-h);
   font-size: var(--size-h2);
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h3 {
