@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <section className="Footer-Signature">
-        <a href="https://jusellier.com" rel="noreferrer" target="_blank">This website was coded with love by JuSellier</a>
+        <a href="https://jusellier.com" rel="noreferrer" target="_blank">Website coded by JuSellier</a>
       </section>
 
       <P5sketch autoPlay titleHidden controlsHidden noBorder {...getRandomP5sketch(p5sketches)} />      
