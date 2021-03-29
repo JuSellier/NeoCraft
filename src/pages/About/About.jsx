@@ -5,7 +5,7 @@ import BasePage from '../../components/BasePage/BasePage'
 const About = () => {
   return (
     <BasePage>
-    <div className="About">
+    <div className="About contained">
       <h1>About NeoCraft</h1>
       <p className="left-line-p">NeoCraft is an initiative from Julien Sellier aimed at promoting artistic usage of technology.</p>
 
