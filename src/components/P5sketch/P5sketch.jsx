@@ -13,7 +13,6 @@ const P5sketch = ({sketchData, setupFunc, drawFunc, title = "P5sketch", descript
   }, [])
 
   let {...data} = sketchData;
-  console.log(data);
   
   const setup = (p5, canvasParentRef) => {
     setupFunc(p5, data);
